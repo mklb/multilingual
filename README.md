@@ -142,7 +142,7 @@ Your files might look like this:
 title: English title
 
 # lang_de.yml
-title: Deutsch titel
+title: Deutscher Titel
 ```
 
 Now in your layouts or includes you can reference these dictionaries under the global variable `lang`. The configured page or post
@@ -153,7 +153,7 @@ language will determine which language dictionary is used. For example:
 {{ lang.title }} => English title
 
 # On a page or post where lang: de
-{{ lang.title }} => Deutsch titel
+{{ lang.title }} => Deutscher Titel
 ```
 
 If no language is configured for a page or post, it will default to the site's default language.
